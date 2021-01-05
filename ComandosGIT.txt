@@ -1,0 +1,13 @@
+… Ou crie um novo repositório na linha de comando
+echo "# teste" >> README.md 
+git init 
+git add README.md 
+git commit -m "primeiro commit" 
+git branch -M principal 
+git remoto adicionar origem https://github.com/eduardoeaf/dsdliver.git
+git push - sua origem principal
+
+… Ou envie um repositório existente a partir da linha de comando
+git remote add origin https://github.com/eduardoeaf/dsdliver-sds2.git
+git branch -M main
+git push -u origin main
